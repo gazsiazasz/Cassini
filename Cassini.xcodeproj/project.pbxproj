@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C62826B1F5DACF100AA30C1 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62826A1F5DACF100AA30C1 /* DemoURL.swift */; };
 		9C80A6FA1F5DA958000E9B6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C80A6F91F5DA958000E9B6A /* AppDelegate.swift */; };
-		9C80A6FC1F5DA958000E9B6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C80A6FB1F5DA958000E9B6A /* ViewController.swift */; };
 		9C80A6FF1F5DA958000E9B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C80A6FD1F5DA958000E9B6A /* Main.storyboard */; };
 		9C80A7011F5DA958000E9B6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C80A7001F5DA958000E9B6A /* Assets.xcassets */; };
 		9C80A7041F5DA958000E9B6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C80A7021F5DA958000E9B6A /* LaunchScreen.storyboard */; };
+		9C80A70D1F5DA9E7000E9B6A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C80A70C1F5DA9E7000E9B6A /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C62826A1F5DACF100AA30C1 /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		9C80A6F61F5DA958000E9B6A /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C80A6F91F5DA958000E9B6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C80A6FB1F5DA958000E9B6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C80A6FE1F5DA958000E9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C80A7001F5DA958000E9B6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C80A7031F5DA958000E9B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C80A7051F5DA958000E9B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C80A70C1F5DA9E7000E9B6A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		9C80A6F81F5DA958000E9B6A /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				9C80A6F91F5DA958000E9B6A /* AppDelegate.swift */,
-				9C80A6FB1F5DA958000E9B6A /* ViewController.swift */,
+				9C80A70C1F5DA9E7000E9B6A /* ImageViewController.swift */,
 				9C80A6FD1F5DA958000E9B6A /* Main.storyboard */,
-				9C80A7001F5DA958000E9B6A /* Assets.xcassets */,
-				9C80A7021F5DA958000E9B6A /* LaunchScreen.storyboard */,
 				9C80A7051F5DA958000E9B6A /* Info.plist */,
+				9C80A70B1F5DA96E000E9B6A /* Supporting Files */,
+				9C62826A1F5DACF100AA30C1 /* DemoURL.swift */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		9C80A70B1F5DA96E000E9B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C80A6F91F5DA958000E9B6A /* AppDelegate.swift */,
+				9C80A7001F5DA958000E9B6A /* Assets.xcassets */,
+				9C80A7021F5DA958000E9B6A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C80A6FC1F5DA958000E9B6A /* ViewController.swift in Sources */,
+				9C80A70D1F5DA9E7000E9B6A /* ImageViewController.swift in Sources */,
 				9C80A6FA1F5DA958000E9B6A /* AppDelegate.swift in Sources */,
+				9C62826B1F5DACF100AA30C1 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
